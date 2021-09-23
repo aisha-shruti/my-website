@@ -1,0 +1,41 @@
+body{
+  background: radial-gradient(#1A237E 0%, #AB47BC 50%,#F48FB1 100%);
+  text-align:center;
+}
+p{
+  font-size:20px;
+  color:#ECEFF1;
+  font-family:cursive;
+}
+h1{
+  color:#FFFF00;
+  font-size:80px;
+  text-shadow:2px 5px #90A4AE;
+}
+h2{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.menu{
+    position:fixed;
+    background:white;
+    width:100%;
+    margin-top:0px;
+    top:0px;
+    z-index:10
+}
+.links{
+    float:left;
+    color:darkturquoise;
+    padding-top: 5px;
+    padding-left:33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: 'Cookie', cursive;
+    font-size: 20px;
+    display:inline;
+}
+.links:hover{
+    background-color:yellow;
+    font-size: 25px;
+    text-decoration:underline;
+}
